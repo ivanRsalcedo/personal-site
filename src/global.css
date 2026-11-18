@@ -18,8 +18,8 @@
 }
 
 .site {
-  --bg: var(--green);
-  --ink: var(--blue);
+  --bg: var(--blue);
+  --ink: var(--green);
 
   background: var(--bg);
   color: var(--ink);
@@ -31,7 +31,8 @@
 
 .content {
   width: min(740px, calc(100% - 44px));
-  margin: 30px auto 75px;
+  margin-inline: auto;
+  padding-block: 30px 75px;
   overflow-wrap: break-word;
 }
 
